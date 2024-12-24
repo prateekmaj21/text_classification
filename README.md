@@ -3,7 +3,6 @@
 This project provides a FastAPI-based API for text classification using an SVM model. The API allows users to send text for classification and receive predictions along with their probabilities.
 
 ## Project Directory Structure
-# Project Structure
 
 | Folder/File            | Description             |
 |------------------------|-------------------------|
