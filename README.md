@@ -15,3 +15,13 @@ This project provides a FastAPI-based API for text classification using an SVM m
 | `model/predict.py`      | Prediction logic        |
 | `requirements.txt`      | Dependencies            |
 | `README.md`             | Documentation           |
+
+
+## Installation
+
+### 1. Install Dependencies
+
+To get started, clone the repository and install the required dependencies.
+
+```bash
+pip install -r requirements.txt
