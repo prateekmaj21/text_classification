@@ -35,5 +35,15 @@ Before running the FastAPI server, you need to train the model. Use the followin
 python model/train.py
 ```
 
-This will load the image dataset, extract features, train the SVM model, and save it as 'svm_image_model.pkl' in the 'model/ directory'.
+This will load the image dataset, extract features, train the SVM model, and save it as `svm_image_model.pkl` in the `model/ directory`.
+
+### 3. Run FastAPI Server
+
+Once the model is trained, you can run the FastAPI server with the following command:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+The server will be available at `http://127.0.0.1:8000`
 
