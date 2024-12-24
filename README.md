@@ -25,3 +25,15 @@ To get started, clone the repository and install the required dependencies.
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 2.  Train the Model
+
+Before running the FastAPI server, you need to train the model. Use the following command to train the SVM model:
+
+```bash
+python model/train.py
+```
+
+This will load the image dataset, extract features, train the SVM model, and save it as 'svm_image_model.pkl' in the 'model/ directory'.
+
