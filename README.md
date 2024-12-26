@@ -109,6 +109,8 @@ The server will be available at `http://127.0.0.1:8000`
   - **URL:** `http://127.0.0.1:8000/`
 
 ---
+![GET Screenshot](https://github.com/prateekmaj21/text_classification/blob/main/Usage_Screenshots/SS1_GET.jpg)
+
 
 ## Prediction Route (`/predict/`)
 
