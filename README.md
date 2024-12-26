@@ -125,3 +125,5 @@ The server will be available at `http://127.0.0.1:8000`
     }
     ```
 
+![POST Screenshot](https://github.com/prateekmaj21/text_classification/blob/main/Usage_Screenshots/SS2_POST.jpg)
+
