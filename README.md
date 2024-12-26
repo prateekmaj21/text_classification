@@ -2,8 +2,6 @@
 
 This project provides a FastAPI-based API for text classification using an SVM model. The API allows users to send text for classification and receive predictions along with their probabilities.
 
-## Data:
-
 # Text Document Classification Dataset
 
 This dataset is designed for text document classification and clustering tasks. It contains 2,225 text samples categorized into five distinct topics: Politics, Sport, Technology, Entertainment, and Business.
@@ -55,9 +53,7 @@ You can use this dataset for:
 The dataset is available on Kaggle: [Text Document Classification Dataset](https://www.kaggle.com/datasets/sunilthite/text-document-classification-dataset)
 
 
-
-
-## Project Directory Structure
+# Project Directory Structure
 
 | Folder/File            | Description             |
 |------------------------|-------------------------|
@@ -72,7 +68,7 @@ The dataset is available on Kaggle: [Text Document Classification Dataset](https
 | `README.md`             | Documentation           |
 
 
-## Installation
+# Installation
 
 ### 1. Install Dependencies
 
