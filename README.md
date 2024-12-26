@@ -98,3 +98,28 @@ uvicorn app.main:app --reload
 
 The server will be available at `http://127.0.0.1:8000`
 
+
+# API Documentation: Check the HTTP Method for Each Route
+
+## Welcome Route (`/`)
+
+- **HTTP Method:** `GET`
+- **Example in Postman:**
+  - **Method:** `GET`
+  - **URL:** `http://127.0.0.1:8000/`
+
+---
+
+## Prediction Route (`/predict/`)
+
+- **HTTP Method:** `POST`
+- **Example in Postman:**
+  - **Method:** `POST`
+  - **URL:** `http://127.0.0.1:8000/predict/`
+  - **Body:** Set to `raw` and `JSON` format with the following content:
+    ```json
+    {
+        "text": "This is a sample text for classification."
+    }
+    ```
+
